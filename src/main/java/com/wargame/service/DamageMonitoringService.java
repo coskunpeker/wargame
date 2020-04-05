@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.Random;
 
 @Service
-public class FuelMonitoringController implements MonitorService {
+public class DamageMonitoringService implements MonitorService {
 
     @Override
     public int getStatistics() {
@@ -15,7 +15,7 @@ public class FuelMonitoringController implements MonitorService {
 
     @Override
     public MonitoringType getType() {
-        return MonitoringType.FUEL;
+        return MonitoringType.DAMAGE;
     }
 
 }

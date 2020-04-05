@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.Random;
 
 @Service
-public class AmmoMonitoringController implements MonitorService {
+public class AmmoMonitoringService implements MonitorService {
 
     @Override
     public int getStatistics() {
